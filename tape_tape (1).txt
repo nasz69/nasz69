@@ -1,0 +1,1396 @@
+{
+  "version": 7,
+  "createdAt": 1696861203523,
+  "updatedAt": 1696863003221,
+  "name": "Tape",
+  "id": "tape",
+  "states": {
+    "panes": {
+      "_id": "panes",
+      "locked": false,
+      "panes": {
+        "chart": {
+          "id": "chart",
+          "name": "",
+          "type": "chart",
+          "markets": [
+            "BINANCE_FUTURES:btcbusd",
+            "BINANCE_FUTURES:btcusd_perp",
+            "BINANCE_FUTURES:btcusdt",
+            "BINANCE:btcbusd",
+            "BINANCE:btcusdc",
+            "BINANCE:btcusdt",
+            "BITFINEX:BTCF0:USTF0",
+            "BITFINEX:BTCUSD",
+            "BITFINEX:BTCUST",
+            "BITMEX:XBT_USDT",
+            "BITMEX:XBTUSD",
+            "BITMEX:XBTUSDT",
+            "BITSTAMP:btcusd",
+            "BITSTAMP:btcusdt",
+            "BYBIT:BTCUSD",
+            "BYBIT:BTCUSDC-SPOT",
+            "BYBIT:BTCUSDT",
+            "BYBIT:BTCUSDT-SPOT",
+            "COINBASE:BTC-USD",
+            "COINBASE:BTC-USDT",
+            "DERIBIT:BTC_USDC-PERPETUAL",
+            "DERIBIT:BTC-PERPETUAL",
+            "KRAKEN:PI_XBTUSD",
+            "KRAKEN:XBT/USD",
+            "KRAKEN:XBT/USDC",
+            "KRAKEN:XBT/USDT",
+            "KUCOIN:BTC-USDC",
+            "KUCOIN:BTC-USDT",
+            "KUCOIN:XBTUSDM",
+            "KUCOIN:XBTUSDTM",
+            "MEXC:BTC_USD",
+            "MEXC:BTC_USDT",
+            "MEXC:BTCUSDT",
+            "OKEX:BTC-USD-SWAP",
+            "OKEX:BTC-USDC",
+            "OKEX:BTC-USDC-SWAP",
+            "OKEX:BTC-USDT",
+            "OKEX:BTC-USDT-SWAP"
+          ],
+          "zoom": 1.25
+        },
+        "trades copy 1": {
+          "id": "trades copy 1",
+          "name": "Big Perp",
+          "type": "trades",
+          "markets": [
+            "BINANCE_FUTURES:btcbusd",
+            "BINANCE_FUTURES:btcusd_perp",
+            "BINANCE_FUTURES:btcusdt",
+            "BITFINEX:BTCF0:USTF0",
+            "BITMEX:XBT_USDT",
+            "BITMEX:XBTUSD",
+            "BITMEX:XBTUSDT",
+            "BYBIT:BTCUSD",
+            "BYBIT:BTCUSDT",
+            "DERIBIT:BTC_USDC-PERPETUAL",
+            "DERIBIT:BTC-PERPETUAL",
+            "KRAKEN:PI_XBTUSD",
+            "KUCOIN:XBTUSDM",
+            "KUCOIN:XBTUSDTM",
+            "MEXC:BTC_USD",
+            "MEXC:BTC_USDT",
+            "OKEX:BTC-USD-SWAP",
+            "OKEX:BTC-USDC-SWAP",
+            "OKEX:BTC-USDT-SWAP"
+          ]
+        },
+        "trades": {
+          "id": "trades",
+          "name": "Medium Perp",
+          "type": "trades",
+          "markets": [
+            "BINANCE_FUTURES:btcbusd",
+            "BINANCE_FUTURES:btcusd_perp",
+            "BINANCE_FUTURES:btcusdt",
+            "BITFINEX:BTCF0:USTF0",
+            "BITMEX:XBT_USDT",
+            "BITMEX:XBTUSD",
+            "BITMEX:XBTUSDT",
+            "BYBIT:BTCUSD",
+            "BYBIT:BTCUSDT",
+            "DERIBIT:BTC_USDC-PERPETUAL",
+            "DERIBIT:BTC-PERPETUAL",
+            "KRAKEN:PI_XBTUSD",
+            "KUCOIN:XBTUSDM",
+            "KUCOIN:XBTUSDTM",
+            "MEXC:BTC_USD",
+            "MEXC:BTC_USDT",
+            "OKEX:BTC-USD-SWAP",
+            "OKEX:BTC-USDC-SWAP",
+            "OKEX:BTC-USDT-SWAP"
+          ]
+        },
+        "trades copy 2": {
+          "id": "trades copy 2",
+          "name": "Small Perp",
+          "type": "trades",
+          "zoom": 1,
+          "markets": [
+            "BINANCE_FUTURES:btcbusd",
+            "BINANCE_FUTURES:btcusd_perp",
+            "BINANCE_FUTURES:btcusdt",
+            "BITFINEX:BTCF0:USTF0",
+            "BITMEX:XBT_USDT",
+            "BITMEX:XBTUSD",
+            "BITMEX:XBTUSDT",
+            "BYBIT:BTCUSD",
+            "BYBIT:BTCUSDT",
+            "DERIBIT:BTC_USDC-PERPETUAL",
+            "DERIBIT:BTC-PERPETUAL",
+            "KRAKEN:PI_XBTUSD",
+            "KUCOIN:XBTUSDM",
+            "KUCOIN:XBTUSDTM",
+            "MEXC:BTC_USD",
+            "MEXC:BTC_USDT",
+            "OKEX:BTC-USD-SWAP",
+            "OKEX:BTC-USDC-SWAP",
+            "OKEX:BTC-USDT-SWAP"
+          ]
+        },
+        "trades copy 3": {
+          "id": "trades copy 3",
+          "name": "Big Spot",
+          "type": "trades",
+          "zoom": 1,
+          "markets": [
+            "BINANCE:btcbusd",
+            "BINANCE:btcusdc",
+            "BINANCE:btcusdt",
+            "BITFINEX:BTCUSD",
+            "BITFINEX:BTCUST",
+            "BITSTAMP:btcusd",
+            "BITSTAMP:btcusdt",
+            "BYBIT:BTCUSDC-SPOT",
+            "BYBIT:BTCUSDT-SPOT",
+            "COINBASE:BTC-USD",
+            "COINBASE:BTC-USDT",
+            "KRAKEN:XBT/USD",
+            "KRAKEN:XBT/USDC",
+            "KRAKEN:XBT/USDT",
+            "KUCOIN:BTC-USDC",
+            "KUCOIN:BTC-USDT",
+            "MEXC:BTCUSDT",
+            "OKEX:BTC-USDC",
+            "OKEX:BTC-USDT"
+          ]
+        },
+        "trades copy 4": {
+          "id": "trades copy 4",
+          "name": "Medium Spot",
+          "type": "trades",
+          "zoom": 1,
+          "markets": [
+            "BINANCE:btcbusd",
+            "BINANCE:btcusdc",
+            "BINANCE:btcusdt",
+            "BITFINEX:BTCUSD",
+            "BITFINEX:BTCUST",
+            "BITSTAMP:btcusd",
+            "BITSTAMP:btcusdt",
+            "BYBIT:BTCUSDC-SPOT",
+            "BYBIT:BTCUSDT-SPOT",
+            "COINBASE:BTC-USD",
+            "COINBASE:BTC-USDT",
+            "KRAKEN:XBT/USD",
+            "KRAKEN:XBT/USDC",
+            "KRAKEN:XBT/USDT",
+            "KUCOIN:BTC-USDC",
+            "KUCOIN:BTC-USDT",
+            "MEXC:BTCUSDT",
+            "OKEX:BTC-USDC",
+            "OKEX:BTC-USDT"
+          ]
+        },
+        "trades copy 5": {
+          "id": "trades copy 5",
+          "name": "Small Spot",
+          "type": "trades",
+          "markets": [
+            "BINANCE:btcbusd",
+            "BINANCE:btcusdc",
+            "BINANCE:btcusdt",
+            "BITFINEX:BTCUSD",
+            "BITFINEX:BTCUST",
+            "BITSTAMP:btcusd",
+            "BITSTAMP:btcusdt",
+            "BYBIT:BTCUSDC-SPOT",
+            "BYBIT:BTCUSDT-SPOT",
+            "COINBASE:BTC-USD",
+            "COINBASE:BTC-USDT",
+            "KRAKEN:XBT/USD",
+            "KRAKEN:XBT/USDC",
+            "KRAKEN:XBT/USDT",
+            "KUCOIN:BTC-USDC",
+            "KUCOIN:BTC-USDT",
+            "MEXC:BTCUSDT",
+            "OKEX:BTC-USDC",
+            "OKEX:BTC-USDT"
+          ]
+        }
+      },
+      "layout": [
+        {
+          "i": "chart",
+          "type": "chart",
+          "x": 0,
+          "y": 0,
+          "w": 15,
+          "h": 24,
+          "moved": false
+        },
+        {
+          "i": "trades copy 1",
+          "type": "trades",
+          "y": 0,
+          "x": 15,
+          "w": 3,
+          "h": 12,
+          "moved": false
+        },
+        {
+          "i": "trades",
+          "type": "trades",
+          "y": 0,
+          "x": 18,
+          "w": 3,
+          "h": 12,
+          "moved": false
+        },
+        {
+          "i": "trades copy 2",
+          "type": "trades",
+          "y": 0,
+          "x": 21,
+          "w": 3,
+          "h": 12,
+          "moved": false
+        },
+        {
+          "i": "trades copy 3",
+          "type": "trades",
+          "y": 12,
+          "x": 15,
+          "w": 3,
+          "h": 12,
+          "moved": false
+        },
+        {
+          "i": "trades copy 4",
+          "type": "trades",
+          "y": 12,
+          "x": 18,
+          "w": 3,
+          "h": 12,
+          "moved": false
+        },
+        {
+          "i": "trades copy 5",
+          "type": "trades",
+          "y": 12,
+          "x": 21,
+          "w": 3,
+          "h": 12,
+          "moved": false
+        }
+      ]
+    },
+    "chart": {
+      "indicatorsErrors": {},
+      "indicators": {
+        "liquidations": {
+          "enabled": true,
+          "name": "Liquidations",
+          "description": "Liquidations by side",
+          "script": "plothistogram(lbuy, color=options.upColor)\nplothistogram(-lsell, color=options.downColor)",
+          "options": {
+            "priceFormat": {
+              "type": "volume"
+            },
+            "priceScaleId": "volume_liquidations",
+            "upColor": "rgb(255,76,243)",
+            "downColor": "rgb(255,183,77)",
+            "scaleMargins": {
+              "top": 0,
+              "bottom": 0.93
+            }
+          },
+          "id": "liquidations",
+          "createdAt": 1678462731548,
+          "updatedAt": null,
+          "series": [
+            "liquidations",
+            "ex4eo93q"
+          ],
+          "optionsDefinitions": {}
+        },
+        "price": {
+          "enabled": true,
+          "name": "Price",
+          "script": "plotcandlestick(options.useHeikinAshi ? avg_heikinashi(bar) : options.useGaps ? avg_ohlc_with_gaps(bar) : avg_ohlc(bar))",
+          "options": {
+            "priceScaleId": "right",
+            "priceFormat": {
+              "auto": true,
+              "precision": 1
+            },
+            "priceLineVisible": true,
+            "lastValueVisible": true,
+            "borderVisible": true,
+            "upColor": "rgb(59,202,109)",
+            "downColor": "rgb(214,40,40)",
+            "borderUpColor": "rgb(59,202,109)",
+            "borderDownColor": "rgb(239,67,82)",
+            "wickUpColor": "rgb(223,211,144)",
+            "wickDownColor": "rgb(239,67,82)",
+            "useGaps": false,
+            "useHeikinAshi": false,
+            "scaleMargins": {
+              "top": 0.04,
+              "bottom": 0.48
+            }
+          },
+          "id": "price",
+          "createdAt": 1678462731548,
+          "updatedAt": null,
+          "series": [
+            "price"
+          ],
+          "optionsDefinitions": {}
+        },
+        "volume": {
+          "enabled": true,
+          "name": "Volume",
+          "description": "Volume + delta",
+          "script": "if (upColor === 0) {\n  if (options.showDelta) {\n    upColor = options.upBgColor\n    downColor = options.downBgColor\n  } else {\n    upColor = options.upColor\n    downColor = options.downColor\n  }\n}\n\nif (options.showDelta) {\n  plothistogram({ time: time, value: Math.abs(vbuy-vsell), color: vbuy - vsell > 0 ? options.upColor : options.downColor})\n}\n\nplothistogram({ time: time, value: vbuy + vsell, color: vbuy > vsell ? upColor : downColor })",
+          "options": {
+            "priceFormat": {
+              "type": "volume"
+            },
+            "upColor": "rgb(59,202,109)",
+            "downColor": "rgb(235,30,47)",
+            "priceScaleId": "volume",
+            "scaleMargins": {
+              "top": 0.94,
+              "bottom": 0
+            },
+            "showDelta": true,
+            "upBgColor": "rgba(59,202,109,0.5)",
+            "downBgColor": "rgba(235,30,47,0.5)"
+          },
+          "id": "volume",
+          "createdAt": 1678462731548,
+          "updatedAt": null,
+          "series": [
+            "volume",
+            "lkcqubxx"
+          ],
+          "optionsDefinitions": {}
+        },
+        "btccvdperp": {
+          "script": "line(cum((BITGET:BTCUSDT_UMCBL.vbuy+BINANCE_FUTURES:btcusdt.vbuy+BINANCE_FUTURES:btcusd_perp.vbuy+BITFINEX:BTCF0:USTF0.vbuy+BITMEX:XBTUSD.vbuy+BYBIT:BTCUSD.vbuy+BYBIT:BTCUSDT.vbuy+DERIBIT:BTC-PERPETUAL.vbuy+FTX:BTC-PERP.vbuy+HUOBI:BTC-USD.vbuy+KRAKEN:PI_XBTUSD.vbuy+OKEX:BTC-USDT-SWAP.vbuy+OKEX:BTC-USD-SWAP.vbuy)- (BITGET:BTCUSDT_UMCBL.vsell+BINANCE_FUTURES:btcusdt.vsell+BINANCE_FUTURES:btcusd_perp.vsell+BITFINEX:BTCF0:USTF0.vsell+BITMEX:XBTUSD.vsell+BYBIT:BTCUSD.vsell+BYBIT:BTCUSDT.vsell+DERIBIT:BTC-PERPETUAL.vsell+FTX:BTC-PERP.vsell+HUOBI:BTC-USD.vsell+KRAKEN:PI_XBTUSD.vsell+OKEX:BTC-USDT-SWAP.vsell+OKEX:BTC-USD-SWAP.vsell)), title=CVD:BTC:PERP)",
+          "name": "CVD (BTC PERP)",
+          "description": "CVD specific markets",
+          "options": {
+            "priceScaleId": "cvdperp",
+            "priceFormat": {
+              "type": "volume"
+            },
+            "color": "#42a5f5",
+            "scaleMargins": {
+              "top": 0.52,
+              "bottom": 0.25
+            }
+          },
+          "id": "btccvdperp",
+          "createdAt": 1678462731548,
+          "updatedAt": 1623024000000,
+          "optionsDefinitions": {},
+          "series": [
+            "btccvdperp"
+          ],
+          "displayName": "CVD (BTC PERP)"
+        },
+        "btccvdspot": {
+          "script": "line(cum((BITGET:BTCUSDT.vbuy+BINANCE:btcusdt.vbuy+BINANCE:btcusdc.vbuy+BITFINEX:BTCUSD.vbuy+BITSTAMP:btcusd.vbuy+BITSTAMP:btcusdt.vbuy+BITSTAMP:btcusdc.vbuy+COINBASE:BTC-USDC.vbuy+COINBASE:BTC-USD.vbuy+COINBASE:BTC-USDT.vbuy+FTX:BTC/USD.vbuy+FTX:BTC/USDT.vbuy+HUOBI:btcusdt.vbuy+HUOBI:btcusdc.vbuy+KRAKEN:XBT/USDC.vbuy+KRAKEN:XBT/USDT.vbuy+KRAKEN:XBT/USD.vbuy+OKEX:BTC-USDT.vbuy+OKEX:BTC-USDC.vbuy+POLONIEX:BTC_USDT.vbuy+POLONIEX:USDC_BTC.vbuy)-(BITGET:BTCUSDT.vsell+BINANCE:btcusdt.vsell+BINANCE:btcusdc.vsell+BITFINEX:BTCUSD.vsell+BITSTAMP:btcusd.vsell+BITSTAMP:btcusdt.vsell+BITSTAMP:btcusdc.vsell+COINBASE:BTC-USDC.vsell+COINBASE:BTC-USD.vsell+COINBASE:BTC-USDT.vsell+FTX:BTC/USD.vsell+FTX:BTC/USDT.vsell+HUOBI:btcusdt.vsell+HUOBI:btcusdc.vsell+KRAKEN:XBT/USDC.vsell+KRAKEN:XBT/USDT.vsell+KRAKEN:XBT/USD.vsell+OKEX:BTC-USDT.vsell+OKEX:BTC-USDC.vsell+POLONIEX:BTC_USDT.vsell+POLONIEX:USDC_BTC.vsell)), title=CVD:BTC:SPOT)",
+          "name": "CVD (BTC SPOT)",
+          "description": "CVD specific markets",
+          "options": {
+            "priceScaleId": "cvdspot",
+            "priceFormat": {
+              "type": "volume"
+            },
+            "color": "#4caf50",
+            "scaleMargins": {
+              "top": 0.52,
+              "bottom": 0.25
+            }
+          },
+          "id": "btccvdspot",
+          "createdAt": 1678462731548,
+          "updatedAt": 1623024000000,
+          "optionsDefinitions": {},
+          "series": [
+            "btccvdspot"
+          ],
+          "displayName": "CVD (BTC SPOT)"
+        }
+      },
+      "priceScales": {
+        "right": {
+          "scaleMargins": {
+            "top": 0.04,
+            "bottom": 0.48
+          },
+          "indicators": [
+            "Price"
+          ]
+        },
+        "cvd": {
+          "scaleMargins": {
+            "top": 0.84,
+            "bottom": 0
+          },
+          "indicators": [
+            "CVD"
+          ]
+        },
+        "volume_liquidations": {
+          "scaleMargins": {
+            "top": 0,
+            "bottom": 0.93
+          },
+          "indicators": [
+            "Liquidations"
+          ]
+        },
+        "volume": {
+          "scaleMargins": {
+            "top": 0.94,
+            "bottom": 0
+          },
+          "indicators": [
+            "Volume"
+          ]
+        },
+        "cvdperp": {
+          "scaleMargins": {
+            "top": 0.52,
+            "bottom": 0.25
+          },
+          "indicators": [
+            "CVD (BTC PERP)"
+          ]
+        },
+        "cvdspot": {
+          "scaleMargins": {
+            "top": 0.52,
+            "bottom": 0.25
+          },
+          "indicators": [
+            "CVD (BTC SPOT)"
+          ]
+        }
+      },
+      "layouting": false,
+      "showIndicators": false,
+      "timeframe": "180",
+      "refreshRate": 1000,
+      "showAlerts": true,
+      "showAlertsLabel": true,
+      "showLegend": true,
+      "fillGapsWithEmpty": true,
+      "showHorizontalGridlines": false,
+      "horizontalGridlinesColor": "rgba(255,255,255,.1)",
+      "showVerticalGridlines": false,
+      "verticalGridlinesColor": "rgba(255,255,255,.1)",
+      "showWatermark": true,
+      "watermarkColor": "rgba(255,255,255,.1)",
+      "showBorder": true,
+      "borderColor": null,
+      "showLeftScale": false,
+      "showRightScale": true,
+      "showTimeScale": true,
+      "hiddenMarkets": {},
+      "barSpacing": 3.096947264968386,
+      "_id": "chart"
+    },
+    "settings": {
+      "_id": "settings",
+      "preferQuoteCurrencySize": true,
+      "aggregationLength": 1,
+      "calculateSlippage": null,
+      "wsProxyUrl": null,
+      "disableAnimations": false,
+      "autoHideHeaders": false,
+      "autoHideNames": false,
+      "theme": "dark",
+      "backgroundColor": "rgb(23,27,41)",
+      "textColor": "",
+      "buyColor": "rgb(100, 157, 102)",
+      "sellColor": "rgb(239, 67, 82)",
+      "timezoneOffset": 25200000,
+      "useAudio": true,
+      "audioVolume": 1,
+      "audioFilters": {
+        "PingPongDelay": true,
+        "Compressor": false,
+        "Delay": false,
+        "HighPassFilter": true,
+        "LowPassFilter": false
+      },
+      "sections": [
+        "settings-workspaces",
+        "settings-trades",
+        "timeframe-minutes",
+        "trades-audio",
+        "search-extras",
+        "search-exchanges",
+        "search-quotes",
+        "settings-exchanges",
+        "settings-other",
+        "trades-thresholds",
+        "search-type",
+        "trades-liquidations"
+      ],
+      "searchTypes": {
+        "recentSearches": true,
+        "historical": true,
+        "spots": true,
+        "perpetuals": true,
+        "futures": false,
+        "normalize": true,
+        "mergeUsdt": true
+      },
+      "searchQuotes": {
+        "USD": true,
+        "USDT": true,
+        "UST": false,
+        "USDC": true,
+        "BUSD": true,
+        "TUSD": true
+      },
+      "previousSearchSelections": [
+        {
+          "label": "BTCUSD",
+          "markets": [
+            "BINANCE_FUTURES:btcbusd",
+            "BINANCE_FUTURES:btcusd_perp",
+            "BINANCE_FUTURES:btcusdt",
+            "BINANCE:btcbusd",
+            "BINANCE:btcusdc",
+            "BINANCE:btcusdt",
+            "BITFINEX:BTCF0:USTF0",
+            "BITFINEX:BTCUSD",
+            "BITFINEX:BTCUST",
+            "BITMEX:XBT_USDT",
+            "BITMEX:XBTUSD",
+            "BITMEX:XBTUSDT",
+            "BITSTAMP:btcusd",
+            "BITSTAMP:btcusdt",
+            "BYBIT:BTCUSD",
+            "BYBIT:BTCUSDC-SPOT",
+            "BYBIT:BTCUSDT",
+            "BYBIT:BTCUSDT-SPOT",
+            "COINBASE:BTC-USD",
+            "COINBASE:BTC-USDT",
+            "DERIBIT:BTC_USDC-PERPETUAL",
+            "DERIBIT:BTC-PERPETUAL",
+            "KRAKEN:PI_XBTUSD",
+            "KRAKEN:XBT/USD",
+            "KRAKEN:XBT/USDC",
+            "KRAKEN:XBT/USDT",
+            "KUCOIN:BTC-USDC",
+            "KUCOIN:BTC-USDT",
+            "KUCOIN:XBTUSDM",
+            "KUCOIN:XBTUSDTM",
+            "MEXC:BTC_USD",
+            "MEXC:BTC_USDT",
+            "MEXC:BTCUSDT",
+            "OKEX:BTC-USD-SWAP",
+            "OKEX:BTC-USDC",
+            "OKEX:BTC-USDC-SWAP",
+            "OKEX:BTC-USDT",
+            "OKEX:BTC-USDT-SWAP"
+          ],
+          "count": 38
+        },
+        {
+          "label": "BTCUSD",
+          "markets": [
+            "BINANCE_FUTURES:btcbusd",
+            "BINANCE_FUTURES:btcusd_perp",
+            "BINANCE_FUTURES:btcusdt",
+            "BINANCE:btcbusd",
+            "BINANCE:btcusdt",
+            "BITFINEX:BTCF0:USTF0",
+            "BITFINEX:BTCUSD",
+            "BITFINEX:BTCUST",
+            "BITMEX:XBTUSD",
+            "BITMEX:XBTUSDT",
+            "BITSTAMP:btcusd",
+            "BYBIT:BTCUSD",
+            "BYBIT:BTCUSDT",
+            "COINBASE:BTC-USD",
+            "COINBASE:BTC-USDT",
+            "DERIBIT:BTC-PERPETUAL",
+            "KRAKEN:PI_XBTUSD",
+            "OKEX:BTC-USD-SWAP",
+            "OKEX:BTC-USDT-SWAP"
+          ],
+          "count": 19
+        }
+      ],
+      "searchExchanges": {
+        "UNISWAP": false
+      },
+      "timeframes": [
+        {
+          "label": "1s",
+          "value": "1"
+        },
+        {
+          "label": "3s",
+          "value": "3"
+        },
+        {
+          "label": "5s",
+          "value": "5"
+        },
+        {
+          "label": "10s",
+          "value": "10"
+        },
+        {
+          "label": "15s",
+          "value": "15"
+        },
+        {
+          "label": "30s",
+          "value": "30"
+        },
+        {
+          "label": "1m",
+          "value": "60"
+        },
+        {
+          "label": "3m",
+          "value": "180"
+        },
+        {
+          "label": "5m",
+          "value": "300"
+        },
+        {
+          "label": "15m",
+          "value": "900"
+        },
+        {
+          "label": "21m",
+          "value": "1260"
+        },
+        {
+          "label": "30m",
+          "value": "1800"
+        },
+        {
+          "label": "1h",
+          "value": "3600"
+        },
+        {
+          "label": "2h",
+          "value": "7200"
+        },
+        {
+          "label": "4h",
+          "value": "14400"
+        },
+        {
+          "label": "6h",
+          "value": "21600"
+        },
+        {
+          "label": "8h",
+          "value": "28800"
+        },
+        {
+          "label": "12h",
+          "value": "43200"
+        },
+        {
+          "label": "1d",
+          "value": "86400"
+        },
+        {
+          "label": "21 ticks",
+          "value": "21t"
+        },
+        {
+          "label": "50 ticks",
+          "value": "50t"
+        },
+        {
+          "label": "89 ticks",
+          "value": "89t"
+        },
+        {
+          "label": "100 ticks",
+          "value": "100t"
+        },
+        {
+          "label": "200 ticks",
+          "value": "200t"
+        },
+        {
+          "label": "610 ticks",
+          "value": "610t"
+        },
+        {
+          "label": "1000 ticks",
+          "value": "1000t"
+        },
+        {
+          "label": "1597 ticks",
+          "value": "1597t"
+        }
+      ],
+      "favoriteTimeframes": {},
+      "normalizeWatermarks": false,
+      "alerts": true,
+      "alertsColor": "rgb(255,0,0)",
+      "alertsLineStyle": 2,
+      "alertsLineWidth": 2,
+      "alertsClick": false,
+      "alertSound": null,
+      "showThresholdsAsTable": false
+    },
+    "trades copy 1": {
+      "liquidations": [
+        {
+          "id": "liquidation_threshold",
+          "amount": 5000000,
+          "buyColor": "rgba(236,64,122,0.5)",
+          "sellColor": "rgba(255,152,0,0.5)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*2,0,,,'sine')\nplay(440, srqtR, srqtR*4,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_significant",
+          "amount": 10000000,
+          "buyColor": "rgba(236,64,122,0.6)",
+          "sellColor": "rgba(255,152,0,0.7)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*6,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_huge",
+          "amount": 20000000,
+          "buyGif": "flying money",
+          "sellGif": "flying money",
+          "buyColor": "rgba(236,64,122,0.7)",
+          "sellColor": "rgba(255,152,0,0.8)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_rare",
+          "amount": 100000000,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgb(156,39,176)",
+          "sellColor": "rgb(255,235,59)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 10)\nplay(329.63, srqtR, 1,0,,,'sine')\nplay(329.63, srqtR, srqtR*10,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 10)\nplay(440, srqtR, 1,0,,,'sine')\nplay(440, srqtR, srqtR*10,0.08,,,'sine')"
+        }
+      ],
+      "thresholds": [
+        {
+          "id": "threshold",
+          "amount": 1047650.8495745935,
+          "buyColor": "rgba(32,77,202,0.5)",
+          "sellColor": "rgba(239, 67, 82, 0.25)",
+          "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 7)",
+          "sellAudio": "play(493.88, gain * 1.5 / 10, 0.1 + gain / 7)"
+        },
+        {
+          "id": "significant",
+          "amount": 5007791.625934708,
+          "buyColor": "rgba(41,98,255,0.8)",
+          "sellColor": "rgb(239, 67, 82)",
+          "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0); play(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23,0,,0); play(392, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23, 0.08,,0)",
+          "buy": "rgb(41,98,255)"
+        },
+        {
+          "id": "huge",
+          "amount": 10238646.981933763,
+          "buyGif": "cash bullish",
+          "sellGif": "cash bearish",
+          "buyColor": "rgba(41,98,255,1)",
+          "sellColor": "rgb(235, 30, 47)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0); play(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.08,,0); play(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.16,,0); play(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.23, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0); play(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0); play(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0); play(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.23, 0.24,,0)"
+        },
+        {
+          "id": "rare",
+          "amount": 20628761.641208027,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgba(106,134,255,1)",
+          "sellColor": "rgb(217, 31, 28)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0); play(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0); play(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0); play(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0); play(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0); play(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0); play(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)"
+        }
+      ],
+      "audioThreshold": "1000000",
+      "multipliers": {},
+      "maxRows": 100,
+      "muted": false,
+      "audioPitch": 3.27,
+      "audioVolume": 1.1,
+      "showPairs": false,
+      "showTrades": true,
+      "showLiquidations": true,
+      "showLogos": true,
+      "monochromeLogos": false,
+      "showTimeAgo": true,
+      "showPrices": true,
+      "showHistograms": true,
+      "thresholdsMultipler": 10,
+      "_id": "trades copy 1"
+    },
+    "exchanges": {
+      "AGGR": {
+        "disabled": true
+      },
+      "BINANCE": {
+        "disabled": false
+      },
+      "BINANCE_FUTURES": {
+        "disabled": false
+      },
+      "BINANCE_US": {
+        "disabled": true
+      },
+      "BITFINEX": {
+        "disabled": false
+      },
+      "BITGET": {
+        "disabled": true
+      },
+      "BITMART": {
+        "disabled": true
+      },
+      "BITMEX": {
+        "disabled": false
+      },
+      "BITSTAMP": {
+        "disabled": false
+      },
+      "BYBIT": {
+        "disabled": false
+      },
+      "COINBASE": {
+        "disabled": false
+      },
+      "CRYPTOCOM": {
+        "disabled": true
+      },
+      "DERIBIT": {
+        "disabled": false
+      },
+      "DYDX": {
+        "disabled": false
+      },
+      "GATEIO": {
+        "disabled": true
+      },
+      "HITBTC": {
+        "disabled": true
+      },
+      "HUOBI": {
+        "disabled": true
+      },
+      "KRAKEN": {
+        "disabled": false
+      },
+      "KUCOIN": {
+        "disabled": false
+      },
+      "MEXC": {
+        "disabled": false
+      },
+      "OKEX": {
+        "disabled": false
+      },
+      "PHEMEX": {
+        "disabled": true
+      },
+      "POLONIEX": {
+        "disabled": true
+      },
+      "UNISWAP": {
+        "disabled": true
+      },
+      "_id": "exchanges"
+    },
+    "trades": {
+      "liquidations": [
+        {
+          "id": "liquidation_threshold",
+          "amount": 1647,
+          "buyColor": "rgba(236,64,122,0.5)",
+          "sellColor": "rgba(255,152,0,0.5)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*2,0,,,'sine')\nplay(440, srqtR, srqtR*4,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_significant",
+          "amount": 3300,
+          "buyColor": "rgba(236,64,122,0.6)",
+          "sellColor": "rgba(255,152,0,0.7)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*6,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_huge",
+          "amount": 6600,
+          "buyGif": "flying money",
+          "sellGif": "flying money",
+          "buyColor": "rgba(236,64,122,0.7)",
+          "sellColor": "rgba(255,152,0,0.8)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_rare",
+          "amount": 33000,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgb(156,39,176)",
+          "sellColor": "rgb(255,235,59)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 10)\nplay(329.63, srqtR, 1,0,,,'sine')\nplay(329.63, srqtR, srqtR*10,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 10)\nplay(440, srqtR, 1,0,,,'sine')\nplay(440, srqtR, srqtR*10,0.08,,,'sine')"
+        }
+      ],
+      "thresholds": [
+        {
+          "id": "threshold",
+          "amount": 100305.5566191377,
+          "buyColor": "rgba(39,96,194,0.5)",
+          "sellColor": "rgba(207,69,79,0.5)",
+          "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 7)",
+          "sellAudio": "play(493.88, gain * 1.5 / 10, 0.1 + gain / 7)"
+        },
+        {
+          "id": "significant",
+          "amount": 309527.65385083435,
+          "buyColor": "rgba(49,121,245,0.8)",
+          "sellColor": "rgba(247,82,95,0.8)",
+          "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0); play(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23,0,,0); play(392, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23, 0.08,,0)",
+          "buy": "rgb(49,121,245)",
+          "sell": "rgb(247,82,95)"
+        },
+        {
+          "id": "huge",
+          "amount": 505945.80158524856,
+          "buyGif": "cash bullish",
+          "sellGif": "cash bearish",
+          "buyColor": "rgba(49,121,245,1)",
+          "sellColor": "rgba(247,82,95,1)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0); play(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.08,,0); play(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.16,,0); play(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.23, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0); play(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0); play(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0); play(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.23, 0.24,,0)"
+        },
+        {
+          "id": "rare",
+          "amount": 942792.5069596586,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgba(109,149,247,1)",
+          "sellColor": "rgba(248,124,132,1)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0); play(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0); play(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0); play(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0); play(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0); play(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0); play(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)"
+        }
+      ],
+      "audioThreshold": "100000",
+      "multipliers": {},
+      "maxRows": 100,
+      "muted": false,
+      "audioPitch": 0.9,
+      "audioVolume": null,
+      "showPairs": false,
+      "showTrades": true,
+      "showLiquidations": true,
+      "showLogos": true,
+      "monochromeLogos": false,
+      "showTimeAgo": true,
+      "showPrices": true,
+      "showHistograms": true,
+      "thresholdsMultipler": 0.33,
+      "_id": "trades"
+    },
+    "trades copy 2": {
+      "liquidations": [
+        {
+          "id": "liquidation_threshold",
+          "amount": 16.5,
+          "buyColor": "rgba(236,64,122,0.5)",
+          "sellColor": "rgba(255,152,0,0.5)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*2,0,,,'sine')\nplay(440, srqtR, srqtR*4,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_significant",
+          "amount": 33,
+          "buyColor": "rgba(236,64,122,0.6)",
+          "sellColor": "rgba(255,152,0,0.7)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*6,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_huge",
+          "amount": 66,
+          "buyGif": "flying money",
+          "sellGif": "flying money",
+          "buyColor": "rgba(236,64,122,0.7)",
+          "sellColor": "rgba(255,152,0,0.8)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_rare",
+          "amount": 330,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgb(156,39,176)",
+          "sellColor": "rgb(255,235,59)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 10)\nplay(329.63, srqtR, 1,0,,,'sine')\nplay(329.63, srqtR, srqtR*10,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 10)\nplay(440, srqtR, 1,0,,,'sine')\nplay(440, srqtR, srqtR*10,0.08,,,'sine')"
+        }
+      ],
+      "thresholds": [
+        {
+          "id": "threshold",
+          "amount": 10629.819919325517,
+          "buyColor": "rgba(39,96,194,0.5)",
+          "sellColor": "rgba(239, 67, 82, 0.25)",
+          "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 7)",
+          "sellAudio": "play(493.88, gain * 1.5 / 10, 0.1 + gain / 7)"
+        },
+        {
+          "id": "significant",
+          "amount": 27859.866500063254,
+          "buyColor": "rgba(49,121,245,0.8)",
+          "sellColor": "rgb(239, 67, 82)",
+          "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0); play(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23,0,,0); play(392, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23, 0.08,,0)"
+        },
+        {
+          "id": "rare",
+          "amount": 60502.15430825769,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgba(109,149,247,1)",
+          "sellColor": "rgb(217, 31, 28)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0); play(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0); play(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0); play(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0); play(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0); play(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0); play(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)"
+        },
+        {
+          "id": "huge",
+          "amount": 117742.10373229989,
+          "buyGif": "cash bullish",
+          "sellGif": "cash bearish",
+          "buyColor": "rgba(49,121,245,1)",
+          "sellColor": "rgb(235, 30, 47)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0); play(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.08,,0); play(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.16,,0); play(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.23, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0); play(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0); play(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0); play(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.23, 0.24,,0)"
+        }
+      ],
+      "audioThreshold": "10000",
+      "multipliers": {},
+      "maxRows": 100,
+      "muted": false,
+      "audioPitch": 1.44,
+      "audioVolume": 0.75,
+      "showPairs": false,
+      "showTrades": true,
+      "showLiquidations": true,
+      "showLogos": true,
+      "monochromeLogos": false,
+      "showTimeAgo": true,
+      "showPrices": true,
+      "showHistograms": true,
+      "thresholdsMultipler": 0.01,
+      "_id": "trades copy 2"
+    },
+    "trades copy 3": {
+      "liquidations": [
+        {
+          "id": "liquidation_threshold",
+          "amount": 1647,
+          "buyColor": "rgba(236,64,122,0.5)",
+          "sellColor": "rgba(255,152,0,0.5)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*2,0,,,'sine')\nplay(440, srqtR, srqtR*4,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_significant",
+          "amount": 3300,
+          "buyColor": "rgba(236,64,122,0.6)",
+          "sellColor": "rgba(255,152,0,0.7)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*6,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_huge",
+          "amount": 6600,
+          "buyGif": "flying money",
+          "sellGif": "flying money",
+          "buyColor": "rgba(236,64,122,0.7)",
+          "sellColor": "rgba(255,152,0,0.8)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_rare",
+          "amount": 33000,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgb(156,39,176)",
+          "sellColor": "rgb(255,235,59)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 10)\nplay(329.63, srqtR, 1,0,,,'sine')\nplay(329.63, srqtR, srqtR*10,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 10)\nplay(440, srqtR, 1,0,,,'sine')\nplay(440, srqtR, srqtR*10,0.08,,,'sine')"
+        }
+      ],
+      "thresholds": [
+        {
+          "id": "threshold",
+          "amount": 109441.2430821908,
+          "buyColor": "rgba(39,96,194,0.5)",
+          "sellColor": "rgba(239, 67, 82, 0.25)",
+          "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 7)",
+          "sellAudio": "play(493.88, gain * 1.5 / 10, 0.1 + gain / 7)"
+        },
+        {
+          "id": "significant",
+          "amount": 250741.26830973037,
+          "buyColor": "rgba(49,121,245,0.8)",
+          "sellColor": "rgb(239, 67, 82)",
+          "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0); play(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23,0,,0); play(392, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23, 0.08,,0)"
+        },
+        {
+          "id": "huge",
+          "amount": 706844.6682245835,
+          "buyGif": "cash bullish",
+          "sellGif": "cash bearish",
+          "buyColor": "rgba(49,121,245,1)",
+          "sellColor": "rgb(235, 30, 47)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0); play(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.08,,0); play(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.16,,0); play(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.23, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0); play(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0); play(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0); play(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.23, 0.24,,0)"
+        },
+        {
+          "id": "rare",
+          "amount": 1016105.6929007026,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgba(109,149,247,1)",
+          "sellColor": "rgb(217, 31, 28)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0); play(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0); play(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0); play(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0); play(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0); play(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0); play(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)"
+        }
+      ],
+      "audioThreshold": null,
+      "multipliers": {},
+      "maxRows": 100,
+      "muted": false,
+      "audioPitch": 0.37,
+      "audioVolume": null,
+      "showPairs": false,
+      "showTrades": true,
+      "showLiquidations": true,
+      "showLogos": true,
+      "monochromeLogos": false,
+      "showTimeAgo": true,
+      "showPrices": true,
+      "showHistograms": true,
+      "thresholdsMultipler": 10,
+      "_id": "trades copy 3"
+    },
+    "trades copy 4": {
+      "liquidations": [
+        {
+          "id": "liquidation_threshold",
+          "amount": 16.5,
+          "buyColor": "rgba(236,64,122,0.5)",
+          "sellColor": "rgba(255,152,0,0.5)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*2,0,,,'sine')\nplay(440, srqtR, srqtR*4,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_significant",
+          "amount": 33,
+          "buyColor": "rgba(236,64,122,0.6)",
+          "sellColor": "rgba(255,152,0,0.7)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*6,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_huge",
+          "amount": 66,
+          "buyGif": "flying money",
+          "sellGif": "flying money",
+          "buyColor": "rgba(236,64,122,0.7)",
+          "sellColor": "rgba(255,152,0,0.8)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_rare",
+          "amount": 330,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgb(156,39,176)",
+          "sellColor": "rgb(255,235,59)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 10)\nplay(329.63, srqtR, 1,0,,,'sine')\nplay(329.63, srqtR, srqtR*10,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 10)\nplay(440, srqtR, 1,0,,,'sine')\nplay(440, srqtR, srqtR*10,0.08,,,'sine')"
+        }
+      ],
+      "thresholds": [
+        {
+          "id": "threshold",
+          "amount": 10629.819919325517,
+          "buyColor": "rgba(39,96,194,0.5)",
+          "sellColor": "rgba(239, 67, 82, 0.25)",
+          "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 7)",
+          "sellAudio": "play(493.88, gain * 1.5 / 10, 0.1 + gain / 7)"
+        },
+        {
+          "id": "significant",
+          "amount": 27859.866500063254,
+          "buyColor": "rgba(49,121,245,0.8)",
+          "sellColor": "rgb(239, 67, 82)",
+          "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0); play(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23,0,,0); play(392, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23, 0.08,,0)"
+        },
+        {
+          "id": "rare",
+          "amount": 60502.15430825769,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgba(109,149,247,1)",
+          "sellColor": "rgb(217, 31, 28)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0); play(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0); play(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0); play(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0); play(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0); play(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0); play(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)"
+        },
+        {
+          "id": "huge",
+          "amount": 117742.10373229989,
+          "buyGif": "cash bullish",
+          "sellGif": "cash bearish",
+          "buyColor": "rgba(49,121,245,1)",
+          "sellColor": "rgb(235, 30, 47)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0); play(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.08,,0); play(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.16,,0); play(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.23, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0); play(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0); play(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0); play(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.23, 0.24,,0)"
+        }
+      ],
+      "audioThreshold": null,
+      "multipliers": {},
+      "maxRows": 100,
+      "muted": false,
+      "audioPitch": 0.58,
+      "audioVolume": null,
+      "showPairs": false,
+      "showTrades": true,
+      "showLiquidations": true,
+      "showLogos": true,
+      "monochromeLogos": false,
+      "showTimeAgo": true,
+      "showPrices": true,
+      "showHistograms": true,
+      "thresholdsMultipler": 0.01,
+      "_id": "trades copy 4"
+    },
+    "trades copy 5": {
+      "liquidations": [
+        {
+          "id": "liquidation_threshold",
+          "amount": 0.2,
+          "buyColor": "rgba(236,64,122,0.5)",
+          "sellColor": "rgba(255,152,0,0.5)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*2,0,,,'sine')\nplay(440, srqtR, srqtR*4,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_significant",
+          "amount": 0.3,
+          "buyColor": "rgba(236,64,122,0.6)",
+          "sellColor": "rgba(255,152,0,0.7)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*6,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_huge",
+          "amount": 0.7,
+          "buyGif": "flying money",
+          "sellGif": "flying money",
+          "buyColor": "rgba(236,64,122,0.7)",
+          "sellColor": "rgba(255,152,0,0.8)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_rare",
+          "amount": 3.3,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgb(156,39,176)",
+          "sellColor": "rgb(255,235,59)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 10)\nplay(329.63, srqtR, 1,0,,,'sine')\nplay(329.63, srqtR, srqtR*10,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 10)\nplay(440, srqtR, 1,0,,,'sine')\nplay(440, srqtR, srqtR*10,0.08,,,'sine')"
+        }
+      ],
+      "thresholds": [
+        {
+          "id": "threshold",
+          "amount": 1125.02387560468,
+          "buyColor": "rgba(39,96,194,0.5)",
+          "sellColor": "rgba(239, 67, 82, 0.25)",
+          "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 7)",
+          "sellAudio": "play(493.88, gain * 1.5 / 10, 0.1 + gain / 7)"
+        },
+        {
+          "id": "significant",
+          "amount": 2202.673956130851,
+          "buyColor": "rgba(49,121,245,0.8)",
+          "sellColor": "rgb(239, 67, 82)",
+          "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0); play(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23,0,,0); play(392, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23, 0.08,,0)"
+        },
+        {
+          "id": "rare",
+          "amount": 4563.654286844358,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgba(109,149,247,1)",
+          "sellColor": "rgb(217, 31, 28)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0); play(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0); play(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0); play(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0); play(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0); play(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0); play(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)"
+        },
+        {
+          "id": "huge",
+          "amount": 10348.07983904086,
+          "buyGif": "cash bullish",
+          "sellGif": "cash bearish",
+          "buyColor": "rgba(49,121,245,1)",
+          "sellColor": "rgb(235, 30, 47)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0); play(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.08,,0); play(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.16,,0); play(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.23, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0); play(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0); play(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0); play(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.23, 0.24,,0)"
+        }
+      ],
+      "audioThreshold": null,
+      "multipliers": {},
+      "maxRows": 100,
+      "muted": false,
+      "audioPitch": 2.2,
+      "audioVolume": 0.3,
+      "showPairs": false,
+      "showTrades": true,
+      "showLiquidations": true,
+      "showLogos": true,
+      "monochromeLogos": false,
+      "showTimeAgo": true,
+      "showPrices": true,
+      "showHistograms": true,
+      "thresholdsMultipler": 0.01,
+      "_id": "trades copy 5"
+    }
+  }
+}
